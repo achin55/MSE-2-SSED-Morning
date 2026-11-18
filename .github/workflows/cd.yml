@@ -67,7 +67,6 @@ jobs:
           POSTGRES_DB=taskflow
           POSTGRES_USER=taskflow_user
           POSTGRES_PASSWORD=$POSTGRES_PASSWORD
-          DATABASE_URL=postgresql://taskflow_user:$POSTGRES_PASSWORD@postgres:5432/taskflow
           REDIS_URL=redis://redis:6379
           JWT_SECRET=TaskflowDeploymentJWTSecret2026ChangeThis
           PORT=3000
